@@ -60,6 +60,7 @@ const ProjectList = () => {
 					<div>
 						<div>{projectData[id].name}</div>
 						<div>Path: {projectData[id].path}</div>
+						<div>Port: {projectData[id].port}</div>
 					</div>
 					<form onSubmit={handleSubmit}>
 						<input type="hidden" value={id} name="id" />
